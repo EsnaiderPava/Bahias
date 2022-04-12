@@ -1,0 +1,69 @@
+.btn-guardar{
+
+    width: 100%;
+    padding: 15px;
+    background-color: #0d6efd;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    color: white;
+}
+.btn-guardar:hover,.btn-guardar:active{
+
+    color: white;
+    background-color: #4192fd;
+    border-color: #4192fd;
+}
+.btn-guardar:focus{
+
+    box-shadow:0 0 0 3px rgba(121,82,179,0.25);
+}
+
+.boxup{
+
+    background-color: #1e2125;
+    width: 800px;
+    height: 757px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+    box-shadow: 0px 0px 25px 0px #0d6efd;
+    position: fixed;
+    z-index: 1;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    background-color: #212529;
+}
+
+.container{
+
+    float: right;
+    margin: 0px 0px 0px 805px;
+    background-color: #212529;
+    color: white;
+}
+
+.bodyCustomer{
+    background-color: #212529;
+}
+
+.constainerCustomer{ 
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.position {
+
+    margin: 100px 0px 0px 0px;
+}
+
+.btnBack{
+
+    padding: 2px 7px 3px 7px;
+    border-radius: 150px;
+    margin: 10px 10px 10px 10px;
+}

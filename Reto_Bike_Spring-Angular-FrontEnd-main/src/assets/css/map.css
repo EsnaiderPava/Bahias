@@ -1,0 +1,18 @@
+#map-template {
+
+    height: 25%;
+    width: 70%;
+    position: absolute;
+    background-color: aqua;
+}
+
+.mapSeccion {
+
+    margin: 5px 5px 450px 215px;
+}
+
+.positionMap {
+
+    justify-content: center;
+    display: flex;
+}

@@ -1,0 +1,29 @@
+<head>        
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+  </head>
+  
+  <div class="colorUp">
+    <a class="btn btn-dark m-3" href="/homec"><i class="bi bi-x" style="font-size: 20px;"></i></a>
+  </div>
+  
+  <div class="container py-5">
+    
+          <h3>Lista de Competencias</h3>
+          <div class="my-5"></div>
+    
+          <div *ngFor="let competencias of competencias" class="card mb-3">
+            <div class="card-body">
+    
+              <div class="d-flex justify-content-between">
+                <div class="fw-bold">{{ competencias.nombre }}</div>
+              </div>
+    
+              <div>{{ competencias.descripcion }}</div>
+              <div>{{ competencias.fecha }}</div>
+              <div>{{ competencias.lugar }}</div>
+    
+            </div>
+          </div>
+    
+</div>
+
